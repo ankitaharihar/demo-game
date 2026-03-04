@@ -1,22 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>🙄Rock-Paper-Scissor🙄</h1>
-    <h3 id="user">Your choice:</h3>
-    <h3 id="computer">Computer's choice:</h3>
-    <h3 id="result">result:</h3>
-    <div class="choices">
-      <img src="./img/Rock.jpg" onclick="play('rock')" class="option" />
-      <img src="./img/Paper.jpg" onclick="play('paper')" class="option" />
-      <img src="./img/Scissors.jpg" onclick="play('scissor')" class="option" />
-    </div>
 
-    <script src="script.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>🙄 Rock Paper Scissor 🙄</h1>
+
+  <h3 id="user">Your choice :</h3>
+  <h3 id="computer">Computer's choice :</h3>
+  <h3 id="result">Result :</h3>
+
+  <div class="choices">
+    <span onclick="play('rock')" class="emoji">🪨</span>
+    <span onclick="play('paper')" class="emoji">📄</span>
+    <span onclick="play('scissor')" class="emoji">✂️</span>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
 </html>
